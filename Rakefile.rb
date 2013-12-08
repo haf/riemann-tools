@@ -9,16 +9,16 @@ ENV['COPYFILE_DISABLE'] = 'true'
 
 # Gemspec
 gemspec = Gem::Specification.new do |s|
-  s.rubyforge_project = 'riemann-tools'
+  s.rubyforge_project = 'riemann-tools.haf'
 
-  s.name = 'riemann-tools'
-  s.version = '0.1.8'
+  s.name = 'riemann-tools.haf'
+  s.version = '0.1.9'
   s.author = 'Kyle Kingsbury'
   s.email = 'aphyr@aphyr.com'
-  s.homepage = 'https://github.com/aphyr/riemann-tools'
+  s.homepage = 'https://github.com/haf/riemann-tools'
   s.platform = Gem::Platform::RUBY
-  s.summary = 'Utilities which submit events to Riemann.'
-  s.description = 'Utilities which submit events to Riemann.'
+  s.summary = 'Utilities which submit events to Riemann. Release until Kyle\'s official is ready.'
+  s.description = 'Utilities which submit events to Riemann. Release until Kyle\'s official is ready.'
   s.license = 'MIT'
 
   s.add_dependency 'riemann-client', '>= 0.2.2'
